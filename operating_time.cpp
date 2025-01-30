@@ -5,7 +5,7 @@
  * @date July 9, 2018
  */
 
-#include "OperatingTime.h"
+#include "operating_time.h"
 
 OperatingTime::OperatingTime(const char *pathToFile) :
 _operatingTime(0),
