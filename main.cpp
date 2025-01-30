@@ -1,9 +1,7 @@
 #include "operating_time.h"
 
 int main() {
-    const char *pathToFile = "optime.txt";
-    OperatingTime operatingTime(pathToFile);
+    OperatingTime operatingTime("optime.txt");
     operatingTime.countdownLoop();
-
     return 0;
 }
